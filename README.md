@@ -43,4 +43,5 @@ Python modules:
 -   lxml
 
 ## Known Issues
+- Rotated item icons aren't matched
 - Chainlet icon on wiki out-of-date
