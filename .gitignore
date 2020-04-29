@@ -1,0 +1,6 @@
+dat/*
+img/*
+__pycache__/*
+tags
+*.o
+*.png
