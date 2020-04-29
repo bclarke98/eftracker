@@ -29,7 +29,7 @@ map<string, function<int(void)>> CMDOPTS;
 map<string, string> HELPOPT;
 
 void addArg(string s, string help, function<int(void)> f){
-    CMDOPTS[s] = f;
+    CMDOPTS[s.substr(0,2)] = f;
     HELPOPT[s] = help;
 }
 
