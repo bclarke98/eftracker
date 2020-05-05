@@ -1,7 +1,7 @@
 CC =  g++
 CFLAGS = `pkg-config --cflags opencv4`
 MAIN = main.o
-OBJECTS = $(MAIN) eftpx.o
+OBJECTS = $(MAIN) eftpx.o gfx.o
 EXE = eftpx
 LIBS = `pkg-config --libs opencv4`
 

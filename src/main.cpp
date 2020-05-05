@@ -5,9 +5,7 @@
 #include <algorithm>
 #include "eftpx.h"
 
-using namespace cv;
 using namespace std;
-using json = nlohmann::json;
 
 int main(int argc, char* argv[]){
     parseArgs(argc, argv);
